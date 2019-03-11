@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatingApp.API", "DatingApp.API.csproj", "{55FB95A0-73F3-4FC3-9CE3-30B9E6ED027D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatingApp-SPA", "DatingApp-SPA", "{08FDD3A4-74C8-41AE-BB40-E317257671A4}"
+	ProjectSection(SolutionItems) = preProject
+		..\DatingApp-SPA\.editorconfig = ..\DatingApp-SPA\.editorconfig
+		..\DatingApp-SPA\.gitignore = ..\DatingApp-SPA\.gitignore
+		..\DatingApp-SPA\angular.json = ..\DatingApp-SPA\angular.json
+		..\DatingApp-SPA\package-lock.json = ..\DatingApp-SPA\package-lock.json
+		..\DatingApp-SPA\package.json = ..\DatingApp-SPA\package.json
+		..\DatingApp-SPA\README.md = ..\DatingApp-SPA\README.md
+		..\DatingApp-SPA\tsconfig.json = ..\DatingApp-SPA\tsconfig.json
+		..\DatingApp-SPA\tslint.json = ..\DatingApp-SPA\tslint.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7BE272C4-3E55-4A59-A910-560ACA3567D1}"
+	ProjectSection(SolutionItems) = preProject
+		..\DatingApp-SPA\src\browserslist = ..\DatingApp-SPA\src\browserslist
+		..\DatingApp-SPA\src\favicon.ico = ..\DatingApp-SPA\src\favicon.ico
+		..\DatingApp-SPA\src\index.html = ..\DatingApp-SPA\src\index.html
+		..\DatingApp-SPA\src\karma.conf.js = ..\DatingApp-SPA\src\karma.conf.js
+		..\DatingApp-SPA\src\main.ts = ..\DatingApp-SPA\src\main.ts
+		..\DatingApp-SPA\src\polyfills.ts = ..\DatingApp-SPA\src\polyfills.ts
+		..\DatingApp-SPA\src\styles.css = ..\DatingApp-SPA\src\styles.css
+		..\DatingApp-SPA\src\test.ts = ..\DatingApp-SPA\src\test.ts
+		..\DatingApp-SPA\src\tsconfig.app.json = ..\DatingApp-SPA\src\tsconfig.app.json
+		..\DatingApp-SPA\src\tsconfig.spec.json = ..\DatingApp-SPA\src\tsconfig.spec.json
+		..\DatingApp-SPA\src\tslint.json = ..\DatingApp-SPA\src\tslint.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{E210E625-5866-40C5-B941-667D25AE1CF8}"
+	ProjectSection(SolutionItems) = preProject
+		..\DatingApp-SPA\src\app\app-routing.module.ts = ..\DatingApp-SPA\src\app\app-routing.module.ts
+		..\DatingApp-SPA\src\app\app.component.css = ..\DatingApp-SPA\src\app\app.component.css
+		..\DatingApp-SPA\src\app\app.component.html = ..\DatingApp-SPA\src\app\app.component.html
+		..\DatingApp-SPA\src\app\app.component.spec.ts = ..\DatingApp-SPA\src\app\app.component.spec.ts
+		..\DatingApp-SPA\src\app\app.component.ts = ..\DatingApp-SPA\src\app\app.component.ts
+		..\DatingApp-SPA\src\app\app.module.ts = ..\DatingApp-SPA\src\app\app.module.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "value", "value", "{C447FAE0-9BEA-465F-942F-800F89EAA8B0}"
+	ProjectSection(SolutionItems) = preProject
+		..\DatingApp-SPA\src\app\value\value.component.css = ..\DatingApp-SPA\src\app\value\value.component.css
+		..\DatingApp-SPA\src\app\value\value.component.html = ..\DatingApp-SPA\src\app\value\value.component.html
+		..\DatingApp-SPA\src\app\value\value.component.spec.ts = ..\DatingApp-SPA\src\app\value\value.component.spec.ts
+		..\DatingApp-SPA\src\app\value\value.component.ts = ..\DatingApp-SPA\src\app\value\value.component.ts
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55FB95A0-73F3-4FC3-9CE3-30B9E6ED027D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55FB95A0-73F3-4FC3-9CE3-30B9E6ED027D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55FB95A0-73F3-4FC3-9CE3-30B9E6ED027D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55FB95A0-73F3-4FC3-9CE3-30B9E6ED027D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BE272C4-3E55-4A59-A910-560ACA3567D1} = {08FDD3A4-74C8-41AE-BB40-E317257671A4}
+		{E210E625-5866-40C5-B941-667D25AE1CF8} = {7BE272C4-3E55-4A59-A910-560ACA3567D1}
+		{C447FAE0-9BEA-465F-942F-800F89EAA8B0} = {E210E625-5866-40C5-B941-667D25AE1CF8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1E6F091-B2C2-4055-A345-C03C32BF3057}
+	EndGlobalSection
+EndGlobal
