@@ -69,9 +69,9 @@ namespace DatingApp.API.Data
             }
         }
 
-        public Task<bool> UserExists(string username)
+        public async Task<bool> UserExists(string username)
         {
-            throw new NotImplementedException();
+            return await context.Users.AnyAsync(_ => _.UserName == username);
         }
     }
 }
