@@ -42,14 +42,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{E210E625-586
 		..\DatingApp-SPA\src\app\app.module.ts = ..\DatingApp-SPA\src\app\app.module.ts
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "value", "value", "{C447FAE0-9BEA-465F-942F-800F89EAA8B0}"
-	ProjectSection(SolutionItems) = preProject
-		..\DatingApp-SPA\src\app\value\value.component.css = ..\DatingApp-SPA\src\app\value\value.component.css
-		..\DatingApp-SPA\src\app\value\value.component.html = ..\DatingApp-SPA\src\app\value\value.component.html
-		..\DatingApp-SPA\src\app\value\value.component.spec.ts = ..\DatingApp-SPA\src\app\value\value.component.spec.ts
-		..\DatingApp-SPA\src\app\value\value.component.ts = ..\DatingApp-SPA\src\app\value\value.component.ts
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nav", "nav", "{BA9A7820-0D64-4824-8CF7-E3A04FF65C4D}"
 	ProjectSection(SolutionItems) = preProject
 		..\DatingApp-SPA\src\app\nav\nav.component.css = ..\DatingApp-SPA\src\app\nav\nav.component.css
@@ -61,6 +53,22 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_services", "_services", "{71CBBEE1-D476-4D76-B6A8-2890CFE84167}"
 	ProjectSection(SolutionItems) = preProject
 		..\DatingApp-SPA\src\app\services\auth.service.ts = ..\DatingApp-SPA\src\app\services\auth.service.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "home", "home", "{785D439F-2670-4367-A5F2-9A1CD1467885}"
+	ProjectSection(SolutionItems) = preProject
+		..\DatingApp-SPA\src\app\home\home.component.css = ..\DatingApp-SPA\src\app\home\home.component.css
+		..\DatingApp-SPA\src\app\home\home.component.html = ..\DatingApp-SPA\src\app\home\home.component.html
+		..\DatingApp-SPA\src\app\home\home.component.spec.ts = ..\DatingApp-SPA\src\app\home\home.component.spec.ts
+		..\DatingApp-SPA\src\app\home\home.component.ts = ..\DatingApp-SPA\src\app\home\home.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "register", "register", "{E0545F40-90AE-44B4-8005-32A40B8AE5C1}"
+	ProjectSection(SolutionItems) = preProject
+		..\DatingApp-SPA\src\app\register\register.component.css = ..\DatingApp-SPA\src\app\register\register.component.css
+		..\DatingApp-SPA\src\app\register\register.component.html = ..\DatingApp-SPA\src\app\register\register.component.html
+		..\DatingApp-SPA\src\app\register\register.component.spec.ts = ..\DatingApp-SPA\src\app\register\register.component.spec.ts
+		..\DatingApp-SPA\src\app\register\register.component.ts = ..\DatingApp-SPA\src\app\register\register.component.ts
 	EndProjectSection
 EndProject
 Global
@@ -80,9 +88,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7BE272C4-3E55-4A59-A910-560ACA3567D1} = {08FDD3A4-74C8-41AE-BB40-E317257671A4}
 		{E210E625-5866-40C5-B941-667D25AE1CF8} = {7BE272C4-3E55-4A59-A910-560ACA3567D1}
-		{C447FAE0-9BEA-465F-942F-800F89EAA8B0} = {E210E625-5866-40C5-B941-667D25AE1CF8}
 		{BA9A7820-0D64-4824-8CF7-E3A04FF65C4D} = {E210E625-5866-40C5-B941-667D25AE1CF8}
 		{71CBBEE1-D476-4D76-B6A8-2890CFE84167} = {E210E625-5866-40C5-B941-667D25AE1CF8}
+		{785D439F-2670-4367-A5F2-9A1CD1467885} = {E210E625-5866-40C5-B941-667D25AE1CF8}
+		{E0545F40-90AE-44B4-8005-32A40B8AE5C1} = {E210E625-5866-40C5-B941-667D25AE1CF8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F1E6F091-B2C2-4055-A345-C03C32BF3057}
